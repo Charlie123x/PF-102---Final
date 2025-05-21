@@ -1,0 +1,56 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: skyblue;
+  margin: 0;
+  overflow: hidden;
+}
+
+#game {
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: lightgreen;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #333;
+}
+
+#bird {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 20px;
+  left: 180px;
+  background-image: url('bird.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.obstacle {
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  border-radius: 50%;
+}
+
+#score-display {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: darkgreen;
+}
+
+#game-over {
+  margin-top: 20px;
+  font-size: 1.5em;
+  color: red;
+}
+
+#final-score {
+  font-size: 1em;
+  text-align: center;
+  width: 100px;
+}
